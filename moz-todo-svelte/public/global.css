@@ -60,8 +60,8 @@ body {
   font:
     1.6rem/1.25 Arial,
     sans-serif;
-  background-color: #f5f5f5;
-  color: #4d4d4d;
+  background-color: gray;
+  color: black;
 }
 @media screen and (min-width: 620px) {
   body {
@@ -80,6 +80,8 @@ body {
   padding: 0.8rem 1rem 0.7rem;
   border: 0.2rem solid #4d4d4d;
   cursor: pointer;
+  color: white;
+  background-color: darkslategray;
   text-transform: capitalize;
 }
 .btn.toggle-btn {
@@ -99,7 +101,7 @@ body {
   border-color: lightgrey;
 }
 .btn__primary {
-  color: #fff;
+  color: white;
   background-color: #000;
 }
 .btn__primary:disabled {
@@ -154,7 +156,7 @@ body {
 /* END GLOBAL STYLES */
 
 .todoapp {
-  background: #fff;
+  background: lightgray;
   margin: 2rem 0 4rem 0;
   padding: 1rem;
   position: relative;
@@ -299,4 +301,8 @@ body {
 }
 .c-cb > input[type="checkbox"]:checked + label::after {
   opacity: 1;
+}
+
+.todo-1, .todo-2, .todo-3{
+  background-color: white;
 }
